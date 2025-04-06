@@ -1,0 +1,11 @@
+/* variables_1.css */
+:root {
+    --primary-color: #A6B5A5;
+    --primary-dark: #4f46e5;
+    --secondary-color: #0f172a;
+    --accent-color: #f43f5e;
+    --light-color: #f8fafc;
+    --dark-color: #1e293b;
+    --gray-color: #94a3b8;
+    --gradient-bg: linear-gradient(135deg, var(--primary-color), #818cf8);
+}

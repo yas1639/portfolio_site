@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>自己紹介</title>
+    <link rel="stylesheet" href="styles_1.css">
+    <link rel="stylesheet" href="variables_1.css">
+    <script src="script_1.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header-bg"></div>
+        <div class="container header-content">
+            <img src="IMG_self-photo_1.JPEG" alt="プロフィール写真" class="profile-img">
+            <h1 class="header-title">原 徳信</h1>
+            <p class="header-subtitle">佐賀大学 | 理工学部 | 理工学科</p>
+            <a href="#about" class="btn">More view</a>
+        </div>
+        <div class="scroll-down">
+            <span>Scroll Down</span>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+            </svg>
+        </div>
+    </header>
+    
+    <nav id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">Portfolio</a>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#timeline">Timeline</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certification">certification</a></li>
+                <li><a href="#self-promotion">Self-promotion</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <main>
+        <section id="about">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">自己紹介と経歴について</p>
+                
+                <div class="about-content">
+                    <div class="about-img fade-in">
+                        <img src="IMG_self-photo_2.JPEG" alt="About me image">
+                    </div>
+                    <div class="about-text fade-in">
+                        <p>私の名前は原徳信と申します。現在、佐賀大学理工学部に在籍し、知能情報システム工学を専攻しております。大学では主にプログラミング、データベース、ネットワーク、人工知能など情報技術に関する基礎的な知識を幅広く学んでおり、日々の授業や課題を通じて情報技術の仕組みや社会における役割について理解を深めております。</p>
+                        <p>現時点では、「この職種で働きたい」といった具体的な目標は定まっておりませんが、システムエンジニア、ソフトウェアエンジニア、フロントエンドエンジニア、クラウドエンジニアといった分野に強い関心を抱いております。これらの職種に共通する「技術を通じて課題を解決する姿勢」に大きな魅力を感じており、将来的には実務経験を積む中で、自分に最も適した分野を見つけたいと考えております。</p>
+                        <p>私の目標は、プログラミングを通じて誰もが住みやすい社会の実現に貢献することです。技術を活用し、日々の生活をより便利にするとともに、人々の役に立つサービスを提供できるよう努めてまいります。そして、一人ひとりの生活に前向きな影響を与えられるよう、絶えず努力していく所存です。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="skills">
+            <div class="container">
+                <h2 class="section-title">My Skills</h2>
+                <p class="section-subtitle">学習経験のあるプログラミング言語</p>
+                
+                <div class="skills-container">
+
+                    <div class="skill-bar-grid">    
+                        <div class="skill-bar">
+                            <div class="skill-bar-title">
+                                <span>HTML</span>
+                                <span>70%</span>
+                            </div>
+                            <div class="skill-bar-bg">
+                                <div class="skill-bar-progress" style="width: 70%"></div>
+                            </div>
+                            <div class="skill-description">超基本的なWebページを作成できる。</div>
+                        </div>
+                        
+                        <div class="skill-bar">
+                            <div class="skill-bar-title">
+                                <span>CSS</span>
+                                <span>50%</span>
+                            </div>
+                            <div class="skill-bar-bg">
+                                <div class="skill-bar-progress" style="width: 50%"></div>
+                            </div>
+                            <div class="skill-description">超基本的なWebページをデザインできる。</div>
+                        </div>
+                        
+                        <div class="skill-bar">
+                            <div class="skill-bar-title">
+                                <span>Python</span>
+                                <span>30%</span>
+                            </div>
+                            <div class="skill-bar-bg">
+                                <div class="skill-bar-progress" style="width: 30%"></div>
+                            </div>
+                            <div class="skill-description">基本構文の学習。Numpy配列、グラフ生成についての学習。</div>
+                        </div>
+
+                        <div class="skill-bar">
+                            <div class="skill-bar-title">
+                                <span>C++</span>
+                                <span>40%</span>
+                            </div>
+                            <div class="skill-bar-bg">
+                                <div class="skill-bar-progress" style="width: 40%"></div>
+                            </div>
+                            <div class="skill-description">基本構文の学習。STLについての学習。オブジェクト指向プログラミング。</div>
+                        </div>
+
+                        <div class="skill-bar">
+                            <div class="skill-bar-title">
+                                <span>Java</span>
+                                <span>10%</span>
+                            </div>
+                            <div class="skill-bar-bg">
+                                <div class="skill-bar-progress" style="width: 10%"></div>
+                            </div>
+                            <div class="skill-description">初学者。</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience">
+            <div class="container">
+                <h2 class="section-title">Experience</h2>
+                <p class="section-subtitle">インターン経験</p>
+
+                <div class="experience-item fade-in">
+                    <h3>株式会社デジタルトレンズ 福岡支社</h3>
+                    <p class="experience-period">期間: 2023年12月〜2025年4月</p>
+                    <p class="experience-summary">WEBマーケティング</p>
+                    <p>私は、インターンシップを通じて、Webマーケティング業務に携わる機会をいただきました。具体的には、Web広告の運用、SEO対策、Web解析、そしてSNSの企画・運用など、幅広い領域に取り組ませていただきました。</p>
+                    <p>広告運用では、ターゲット選定や広告文の作成、成果の数値分析などを行い、どのような施策が効果的かを日々検証しました。SEOに関しては、キーワード選定やコンテンツ改善に携わり、検索順位向上を目指した施策の立案と実行を行いました。また、Google Analyticsなどのツールを用いたアクセス解析を通して、ユーザーの動向を数値的に捉え、改善提案にも取り組みました。</p>
+                    <p>SNS運用では、投稿内容の企画・ライティング・デザイン補助などに関わり、ユーザーとの接点づくりを意識しながら情報発信を行いました。短い期間ではありますが、実務を通して「相手に伝わる情報設計の大切さ」や「数値に基づく改善の視点」を学ぶことができ、大変貴重な経験となりました。</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="timeline" class="timeline">
+            <div class="container">
+                <h2 class="section-title">Timeline</h2>
+                <p class="section-subtitle">履歴</p>
+        
+                <!-- 1つ目 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2023年3月</div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">福岡中央高校 卒業</h3>
+                        <p class="timeline-subtitle">普通科</p>
+                        <p>高校3年生前期までは、部活に専念。高校3年生後期から受験に向けて勉強し、無事大学合格。</p>
+                    </div>
+                </div>
+        
+                <!-- 2つ目 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2024年4月</div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">佐賀大学 入学</h3>
+                        <p class="timeline-subtitle">理工学部</p>
+                        <p>情報システムやDBの基礎について学習。</p>
+                    </div>
+                </div>
+        
+                <!-- 3つ目 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2024年12月</div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">長期インターンに参加</h3>
+                        <p class="timeline-subtitle">WEBマーケティング</p>
+                        <p>WEB広告の運用やWEB解析について実務として経験。MEBメディアの立ち上げにも参加しSEOについても取り組む。</p>
+                    </div>
+                </div>
+        
+                <!-- 4つ目 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2025年2月</div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">卒業見込み</h3>
+                        <p class="timeline-subtitle">佐賀大学</p>
+                        <p>研究テーマ：「神経科学とニューラルネットワーク」についてチューターと相談中。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="container">
+                <h2 class="section-title">Projects</h2>
+                <p class="section-subtitle">これまでの制作物・成果物</p>
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3 class="project-title">ポートフォリオサイト</h3>
+                        <div class="project-tags">
+                            <span class="project-tag">HTML</span>
+                            <span class="project-tag">CSS</span>
+                            <span class="project-tag">JavaScript</span>
+                        </div>
+                            <p class="project-desc">
+                                自己紹介・スキル・学歴などを掲載したポートフォリオサイトを作成しました。（当サイト）
+                            </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="certification">
+            <div class="container">
+                <h2 class="section-title">Certification</h2>
+                <p class="section-subtitle">取得資格</p>
+
+                <div class="certification-item fade-in">
+                    <h3>普通自動車免許</h3>
+                    <p class="certification-period">取得時期: 2024年8月</p>
+                    <p>MT運転可</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="self-promotion">
+            <div class="container">
+                <h2 class="section-title">Self-promotion</h2>
+                <p class="section-subtitle">自己PR</p>
+        
+                <!-- 自己PR本文 -->
+                <div class="self-promotion-content">
+                    <p>
+                        私の強みは、複数のタスクを計画的にこなし、誠実に取り組む姿勢です。
+                    </p>
+                    <p>
+                        現在は、大学の授業と並行して長期インターンにも参加しており、スケジュールが重なる中でも「何を優先すべきか」を常に意識しながら行動しています。限られた時間の中で成果を出すために、タスクの優先順位付けやスケジューリングに工夫を凝らすようにしています。<br>
+                    </p>
+                    <p>
+                        また、問題に直面した際には、まず自分でネットなどを活用して情報収集を行い、それでも解決が難しい場合には、上司や先生に相談するようにしています。
+                        その際は、なるべく状況を整理したうえで相談することを心がけ、相手の負担を減らしつつ、的確なアドバイスをいただけるよう努めています。
+                    </p>
+                    <p>
+                        細かい作業を丁寧に進めることも得意で、集中すると時間を忘れるほど没頭することがあります。
+                        今後も、誠実さと計画性を大切にしながら、チームに貢献できる存在を目指して努力していきます。
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 原 徳信. All rights reserved.</p>
+        </div>
+        <div class="social-links fade-in">
+            <a href="#" target="_blank">GitHub</a>
+        </div>
+    </footer>
+</body>
